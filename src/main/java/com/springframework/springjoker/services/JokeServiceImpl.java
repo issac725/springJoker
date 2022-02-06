@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 public class JokeServiceImpl implements JokeService {
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    @Autowired
     public JokeServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
         this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
